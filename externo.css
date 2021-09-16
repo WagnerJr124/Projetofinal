@@ -1,0 +1,99 @@
+
+/*Para o titulo GOISPORT e os rodapes ficarem com a fonte branca centralizada */
+.titulo
+{
+		text-align: center;
+		color: white;
+		font-family: Impact;
+}
+
+/*Coloca caixa de texto em todas*/
+.areatitulo
+{
+		margin-top: 5px;
+		margin-bottom: 30px;
+	 	border: 1px solid black;
+	 	padding: 20px;
+}
+
+/*Dar cor azul as caixas de texto*/
+.cor{
+	background-color: #191970
+}
+
+/*Para os formularios ficarem centralizados na linha*/
+.blocktext{
+	margin-left: auto;
+    margin-right: auto;
+    width: 30em;
+   
+ }   
+ /* coloca a cor da fonte branca onde tem tela preta */
+.formatacaoform
+{
+	color:white;
+}
+/*Edita as imagens dos itens na parte inferior */
+.displayed 
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto ;
+    width: 150px;
+    height: 150px;
+}
+
+/*Edita o simbolo e as imagens do anuncio*/
+.tamanhossimeanun{
+	display: block;
+    margin-left: auto;
+    margin-right: auto ;
+    width: 300px;
+    height: 300px;
+}
+/*Edita a fonte desses titulos*/
+h2,h4,h3
+{
+	font-family: Impact;
+}
+
+/* Edição dos parágrafos*/
+p
+{
+	font-family: sans-serif;
+	font-size: 35px;
+	text-align: justify;
+
+}
+/*Realiza a edição da imagem do detalhe dos produtos */
+.imagemdetalhes
+{
+  width: 400px;
+  height: 400px;
+ 
+}
+/*Edita os links das páginas*/
+a
+{
+	font-family: sans-serif;
+	text-decoration:none;
+	color:white;
+	font-size: 35px;
+}
+
+
+/*Coloca o nome frete para verde e demais edições*/
+.frete
+{
+
+	color: green;
+	font-family: sans-serif;
+	font-size: 18px;
+}
+
+/*Sublinhado no preço do produto dentro de "detalhes" */
+.sublinhadonopreco
+{
+	text-decoration: line-through;
+
+}
